@@ -7,9 +7,17 @@
 	</head>
 	<body>
     
+    <!--Text chapeter in HTML tutorial series-->
+    <h1>Text</h1>
+    
+    <p>Text in HTML can be structured many different ways. Utilizing text elements can add semantic structure to web pages.</p>
+    <hr>
+    
     <!--HTML Paragraphs and Headlines-->
     
-		<h1>HTML Paragraphs and Headlines.</h1>
+    <h1>HTML Paragraphs and Headlines.</h1>
+    
+		<h1>This is a level 1 headline.</h1>
 		<h2>This is a level 2 headline.</h2>
 		<h3>This is a level 3 headline.</h3>
 		<h4>This is a level 4 headline.</h4>
@@ -38,7 +46,10 @@
 		<p>
 			<em>Lorem ipsum dolor</em> sit amet, consectetur adipiscing elit. Integer laoreet justo eu leo consectetur ut ornare lectus vulputate. Donec auctor rutrum massa ut imperdiet. Fusce et sem urna.
 		</p>
+        
+        <h5>This is a horizontal rule:)</h5>
 		<hr>
+        
 		<p>
 			<strong>Lorem ipsum dolor</strong> sit amet, consectetur adipiscing elit. Integer laoreet justo eu leo consectetur ut ornare lectus vulputate. Donec auctor rutrum massa ut imperdiet. Fusce et sem urna.
 		</p>
@@ -90,5 +101,166 @@
        <hr>
        <hr>
        
+       <!-- how to abbreviate pieces of text, format physical mailing addresses, and more.-->
        
-	</body>
+       <h1>Abbreviations, Addresses, and Citations</h1>
+       
+       	<!--the abbr tag is cool-->
+        
+		<p>I know how to use <abbr title="self-contained underwater breathing apparatus">SCUBA</abbr> gear.</p>
+
+		<address>
+			Nick Pettit<br>
+			1234 Example Road<br>
+			Metropolis
+		</address>
+
+		<p>My favorite book is <cite>A Tale of Two Cities</cite> by Charles Dickens.</p>
+
+		<!--this is used to break apart a link to the next line when the url is very long-->
+
+		<p>team<wbr>treehouse.com</p>
+        
+       <hr>
+       <hr>
+       
+       <!-- how to abbreviate pieces of text, format physical mailing addresses, and more.-->
+       
+       <h1>Abbreviations, Addresses, and Citations</h1>
+       
+		<p>I know how to use <abbr title="self-contained underwater breathing apparatus">SCUBA</abbr> gear.</p>
+
+		<address>
+			Nick Pettit<br>
+			1234 Example Road<br>
+			Metropolis
+		</address>
+
+		<p>My favorite book is <cite>A Tale of Two Cities</cite> by Charles Dickens.</p>
+
+		<p>team<wbr>treehouse.com</p>
+        
+       <hr>
+       <hr>
+       	
+	   <h1>Lists</h1>
+       <p>Lists in HTML can be used to create an ordered or unordered grouping of list items, such as a grocery list or your top five favorite movies.</p>
+       <hr>
+       
+       <!--three elements that will help us create basic HTML lists. These lists, can be things like your top ten favorite movies or things to get at a store. When we move on to CSS, we'll explore these lists further by using them for things like navigation in a web site.-->
+       
+       <h1>HTML Lists - Ordered and Unordered</h1>
+       
+          <ol>
+            <li>First list item</li>
+            <li>The next thing</li>
+            <li>The third thing</li>
+            <li>This one comes last</li>
+          </ol>
+          
+          <ul>
+            <li>First list item</li>
+            <li>The next thing
+              <ul>
+                <li>First list item
+                  <ul>
+                    <li>First list item</li>
+                    <li>The next thing</li>
+                    <li>The third thing</li>
+                    <li>This one comes last</li>
+                  </ul>
+                </li>
+                <li>The next thing</li>
+                <li>The third thing</li>
+                <li>This one comes last</li>
+              </ul>
+            </li>
+            <li>The third thing</li>
+            <li>This one comes last</li>
+          </ul>
+          
+       <hr>
+       <hr>
+       
+       <!--Definition lists are useful when you have a group of terms that need descriptions. Definition lists tend to be less commonly used than ordered and unordered lists, but if the content fits the pattern of a definition list, you should definitely consider using them.-->
+       
+       <h1>Definition Lists</h1>
+       
+          <dl>
+            <dt>Video Pros</dt>
+            <dd>Jon</dd>
+            <dd>Michael</dd>
+            <dt>Teachers</dt>
+            <dd>Nick</dd>
+            <dd>Jim</dd>
+            <dd>Amit</dd>
+          </dl>
+          
+          <dl>
+           <dt lang="en-US">color</dt>
+           <dt lang="en-GB">colour</dt>
+           <dd>A sensation which (in humans) derives from the ability of
+           the fine structure of the eye to distinguish three differently
+           filtered analyses of a view.</dd>
+          </dl>
+          
+       <hr>
+       <hr>
+       
+       <!--Hyperlinks are the fundamental idea that makes the web great. They allow pages to be linked together so that it's easy to navigate through the sea of information.-->
+       
+       <h1>Links</h1>
+       
+       <hr>
+              
+       <h1>Anchors</h1>
+       
+       <p>how to use the anchor elements. This special element allows us to link different parts of a webpage together.</p>
+       
+          <a href="#some_text" id="my_link">My Link</a>
+          
+          <!--BAD PRACTICE-->
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          
+          <p id="some_text">The anchor tag takes us here.</p>
+          
+          <a href="#my_link">Back to Top</a>
+          
+          <!--BAD PRACTICE-->
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+       
+       <hr>
+       <hr>
+       
+       <!--how to use the anchor tag to link multiple web pages together. This will allow us to make the leap from web pages to websites.-->
+       
+       <h1>Websites: Part 1</h1>
+       
+          <a href="another_page.html">My Link</a>
+          
+          <br>
+          
+          <a href="http://google.com">Take me to Google!</a>
+       
+       <hr>
+       <hr>
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+          
+       </body>
